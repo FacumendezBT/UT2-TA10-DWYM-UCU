@@ -1,8 +1,11 @@
-const btn = document.getElementById('btn');
-btn.addEventListener('click', () => {
-    let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-    getSum(nums);
-});
+
+window.onload = () => {
+    const btn = document.getElementById('btn');
+    btn.addEventListener('click', () => {
+        let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+        getSum(nums);
+    });    
+}
 
 
 /**
